@@ -1,6 +1,6 @@
 'use strict';
 
-chrome.webRequest.onBeforeRequest.addListener(function (details) {
+chrome.webRequest.onBeforeRequest.addListener(details => {
 	if (details.method !== 'GET') {
 		return;
 	}

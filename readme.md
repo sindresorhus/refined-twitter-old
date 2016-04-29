@@ -9,7 +9,7 @@ The new [mobile web](https://mobile.twitter.com) version of Twitter is much fast
 
 ## Install
 
-~~Install it from the [Chrome Web Store]() or [manually](http://superuser.com/a/247654/6877).~~
+Install it from the [Chrome Web Store](https://chrome.google.com/webstore/detail/refined-twitter/nlfgmdembofgodcemomfeimamihoknip) or [manually](http://superuser.com/a/247654/6877).
 
 
 ## Related
