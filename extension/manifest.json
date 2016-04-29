@@ -1,0 +1,35 @@
+{
+	"name": "Refined Twitter",
+	"version": "0.0.0",
+	"description": "Enforces the mobile web version of Twitter and improves its interface",
+	"homepage_url": "https://github.com/sindresorhus/refined-twitter",
+	"manifest_version": 2,
+	"minimum_chrome_version": "50",
+	"permissions": [
+		"webRequest",
+		"webRequestBlocking",
+		"https://twitter.com/*"
+	],
+	"background": {
+		"scripts": [
+			"background.js"
+		]
+	},
+	"icons": {
+		"128": "icon.png"
+	},
+	"content_scripts": [
+		{
+			"run_at": "document_start",
+			"matches": [
+				"https://mobile.twitter.com/*"
+			],
+			"css": [
+				"content.css"
+			],
+			"js": [
+				"content.js"
+			]
+		}
+	]
+}

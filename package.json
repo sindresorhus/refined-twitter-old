@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "test": "xo"
+  },
+  "devDependencies": {
+    "xo": "*"
+  },
+  "xo": {
+    "esnext": true,
+    "envs": [
+      "browser",
+      "webextensions"
+    ]
+  }
+}
