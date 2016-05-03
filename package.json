@@ -10,6 +10,9 @@
     "envs": [
       "browser",
       "webextensions"
-    ]
+    ],
+    "rules": {
+      "prefer-const": "warn"
+    }
   }
 }
