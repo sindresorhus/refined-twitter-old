@@ -5,6 +5,11 @@ chrome.webRequest.onBeforeRequest.addListener(details => {
 		return;
 	}
 
+	// if the URL is for an intent, don't change the URL
+	if (/twitter.com\/intent\//.test(details.url)) {
+		return;
+	}
+
 	return {
 		redirectUrl: details.url.replace(/^https:\/\/twitter/, 'https://mobile.twitter')
 	};
