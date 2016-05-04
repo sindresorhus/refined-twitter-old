@@ -4,6 +4,8 @@
 
 The new [mobile web](https://mobile.twitter.com) version of Twitter is much faster and better looking than the desktop one. When you open a link that would normally be to desktop Twitter, this extension redirects you to the mobile web version and makes it wider.
 
+I'm happy to receive feature requests. See [refined-github](https://github.com/sindresorhus/refined-github#highlights) for inspiration of the possibilities.
+
 ![](screenshot.png)
 
 
