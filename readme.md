@@ -6,6 +6,8 @@ The new [mobile web](https://mobile.twitter.com) version of Twitter is much fast
 
 I'm happy to receive feature requests. See [refined-github](https://github.com/sindresorhus/refined-github#highlights) for inspiration of the possibilities.
 
+**Check out [Anatine <img src="https://raw.githubusercontent.com/sindresorhus/anatine/master/media/Icon.png" width="23">](https://github.com/sindresorhus/anatine) — Desktop app version of this**
+
 ![](screenshot.png)
 
 
@@ -16,7 +18,8 @@ Install it from the [Chrome Web Store](https://chrome.google.com/webstore/detail
 
 ## Related
 
-- [refined-github](https://github.com/sindresorhus/refined-github)
+- [Anatine](https://github.com/sindresorhus/anatine) - Pristine Twitter app
+- [Refined GitHub](https://github.com/sindresorhus/refined-github) - Chrome extension
 
 
 ## License
