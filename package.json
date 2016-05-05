@@ -13,6 +13,9 @@
     ],
     "rules": {
       "prefer-const": "warn"
-    }
+    },
+    "ignores": [
+      "extension/vendor/**"
+    ]
   }
 }
