@@ -28,6 +28,8 @@
 				"content.css"
 			],
 			"js": [
+				"vendor/mousetrap.js",
+				"vendor/mousetrap-global-bind.js",
 				"content.js"
 			]
 		}

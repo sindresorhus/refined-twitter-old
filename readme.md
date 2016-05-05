@@ -14,6 +14,19 @@ I'm happy to receive feature requests. See [refined-github](https://github.com/s
 Install it from the [Chrome Web Store](https://chrome.google.com/webstore/detail/refined-twitter/nlfgmdembofgodcemomfeimamihoknip) or [manually](http://superuser.com/a/247654/6877).
 
 
+## Keyboard shortcuts
+
+- New Tweet: <kbd>n</kbd>
+- Post Tweet: <kbd>Cmd/Ctrl</kbd> <kbd>Enter</kbd>
+- Send DM: <kbd>Cmd/Ctrl</kbd> <kbd>Enter</kbd>
+- Go to Home: <kbd>g</kbd> <kbd>h</kbd>
+- Go to Notifications: <kbd>g</kbd> <kbd>n</kbd>
+- Go to Messages: <kbd>g</kbd> <kbd>m</kbd>
+- Go to Search: <kbd>/</kbd>
+- Go to Profile: <kbd>g</kbd> <kbd>p</kbd>
+- Go to Likes: <kbd>g</kbd> <kbd>l</kbd>
+
+
 ## Related
 
 - [Anatine](https://github.com/sindresorhus/anatine) - Pristine Twitter app
