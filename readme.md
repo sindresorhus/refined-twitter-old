@@ -1,8 +1,6 @@
 # <img src="extension/icon.png" width="45" align="left"> Refined Twitter
 
-> Chrome extension that enforces the mobile web version of Twitter and improves its interface
-
-The new [mobile web](https://mobile.twitter.com) version of Twitter is much faster and better looking than the desktop one. When you open a link that would normally be to desktop Twitter, this extension redirects you to the mobile web version and makes it wider.
+> An extension that makes Chrome always use the [mobile web](https://mobile.twitter.com) version of Twitter, which is much faster and better looking than the old [desktop web](https://twitter.com) version. When you open a link that would normally be to desktop Twitter, this extension redirects you to the mobile web version and makes it wider.
 
 I'm happy to receive feature requests. See [refined-github](https://github.com/sindresorhus/refined-github#highlights) for inspiration of the possibilities.
 
