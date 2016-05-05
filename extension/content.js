@@ -24,6 +24,8 @@ function registerShortcuts(username) {
 
 	Mousetrap.bind('/', () => {
 		$('a[href$="/search"]').click();
+
+		return false;
 	});
 
 	Mousetrap.bind('g p', () => {
