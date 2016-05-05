@@ -3,10 +3,7 @@
 const $ = document.querySelector.bind(document);
 // const $$ = document.querySelectorAll.bind(document);
 
-function init() {
-	const state = JSON.parse($('.___iso-state___').dataset.state).initialState;
-	const username = state.settings.data.screen_name;
-
+function registerShortcuts(username) {
 	Mousetrap.bind('n', () => {
 		$('a[href$="/compose/tweet"]').click();
 
@@ -55,6 +52,13 @@ function init() {
 			$('button[data-testid="dmComposerSendButton"]').click();
 		}
 	});
+}
+
+function init() {
+	const state = JSON.parse($('.___iso-state___').dataset.state).initialState;
+	const username = state.settings.data.screen_name;
+
+	registerShortcuts(username);
 }
 
 document.addEventListener('DOMContentLoaded', () => {
