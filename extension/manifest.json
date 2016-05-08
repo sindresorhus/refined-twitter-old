@@ -1,6 +1,6 @@
 {
 	"name": "Refined Twitter",
-	"version": "0.2.0",
+	"version": "0.2.2",
 	"description": "Enforces the mobile web version of Twitter and improves its interface",
 	"homepage_url": "https://github.com/sindresorhus/refined-twitter",
 	"manifest_version": 2,
