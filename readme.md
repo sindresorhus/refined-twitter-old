@@ -2,7 +2,7 @@
 
 > An extension that makes Chrome always use the [mobile web](https://mobile.twitter.com) version of Twitter, which is much faster and better looking than the old [desktop web](https://twitter.com) version. When you open a link that would normally be to desktop Twitter, this extension redirects you to the mobile web version and makes it wider.
 
-I'm happy to receive feature requests. See [refined-github](https://github.com/sindresorhus/refined-github#highlights) for inspiration of the possibilities.
+I'm happy to receive feature requests. See [refined-github](https://github.com/sindresorhus/refined-github#highlights) for inspiration of the possibilities. Can be new features, interface tweaks, more keyboard shortcuts, etc. Pull requests preferable.
 
 **Check out [Anatine <img src="https://raw.githubusercontent.com/sindresorhus/anatine/master/media/Icon.png" width="23">](https://github.com/sindresorhus/anatine) — Desktop app version of this**
 
@@ -18,9 +18,8 @@ Works on Firefox too, but requires [some manual steps for now](https://github.co
 
 ## Keyboard shortcuts
 
-- New Tweet: <kbd>n</kbd>
-- Post Tweet: <kbd>Cmd/Ctrl</kbd> <kbd>Enter</kbd>
-- Send DM: <kbd>Cmd/Ctrl</kbd> <kbd>Enter</kbd>
+- New tweet/DM: <kbd>n</kbd>
+- Send tweet/DM: <kbd>Cmd</kbd> <kbd>Enter</kbd> or <kbd>Cmd</kbd> <kbd>Enter</kbd>
 - Go to Home: <kbd>g</kbd> <kbd>h</kbd>
 - Go to Notifications: <kbd>g</kbd> <kbd>n</kbd>
 - Go to Messages: <kbd>g</kbd> <kbd>m</kbd>
@@ -32,7 +31,7 @@ Works on Firefox too, but requires [some manual steps for now](https://github.co
 ## Related
 
 - [Anatine](https://github.com/sindresorhus/anatine) - Pristine Twitter app
-- [Refined GitHub](https://github.com/sindresorhus/refined-github) - Chrome extension
+- [Refined GitHub](https://github.com/sindresorhus/refined-github) - Like this, but for GitHub
 
 
 ## License
