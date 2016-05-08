@@ -5,7 +5,7 @@
  * @type {Array}
  */
 const exceptionRE = [
-	/twitter.com\/intent\//, // intent URLs
+	/twitter.com\/(intent|share)/, // intent URLs
 	/twitter.com\/i\/redirect\?url=/ // redirect URLs
 ];
 
