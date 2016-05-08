@@ -12,7 +12,7 @@
       "webextensions"
     ],
     "rules": {
-      "prefer-const": "warn"
+      "prefer-const": "off"
     },
     "ignores": [
       "extension/vendor/**"
