@@ -1,13 +1,23 @@
 'use strict';
 
+/**
+ * An array of regular expressions for exceptions.
+ * @type {Array}
+ */
+const exceptionRE = [
+	/twitter.com\/intent\//, // intent URLs
+	/twitter.com\/i\/redirect\?url=/ // redirect URLs
+];
+
 chrome.webRequest.onBeforeRequest.addListener(details => {
 	if (details.method !== 'GET') {
 		return;
 	}
 
-	// if the URL is for an intent, don't change the URL
-	if (/twitter.com\/intent\//.test(details.url)) {
-		return;
+	for (let re of exceptionRE) {
+		if (re.test(details.url)) {
+			return;
+		}
 	}
 
 	return {
