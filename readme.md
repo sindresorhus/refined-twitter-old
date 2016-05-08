@@ -13,6 +13,8 @@ I'm happy to receive feature requests. See [refined-github](https://github.com/s
 
 Install it from the [Chrome Web Store](https://chrome.google.com/webstore/detail/refined-twitter/nlfgmdembofgodcemomfeimamihoknip) or [manually](http://superuser.com/a/247654/6877).
 
+Works on Firefox too, but requires [some manual steps for now](https://github.com/sindresorhus/refined-twitter/pull/3#issuecomment-217343256).
+
 
 ## Keyboard shortcuts
 
