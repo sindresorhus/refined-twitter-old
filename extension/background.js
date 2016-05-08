@@ -1,10 +1,6 @@
 'use strict';
 
-/**
- * An array of regular expressions for exceptions.
- * @type {Array}
- */
-const exceptionRE = [
+const blacklist = [
 	/twitter.com\/(intent|share)/, // intent URLs
 	/twitter.com\/i\/redirect\?url=/ // redirect URLs
 ];
@@ -14,14 +10,14 @@ chrome.webRequest.onBeforeRequest.addListener(details => {
 		return;
 	}
 
-	for (let re of exceptionRE) {
-		if (re.test(details.url)) {
-			return;
-		}
+	const url = details.url;
+
+	if (blacklist.some(x => x.test(url))) {
+		return;
 	}
 
 	return {
-		redirectUrl: details.url.replace(/^https:\/\/twitter/, 'https://mobile.twitter')
+		redirectUrl: url.replace(/^https:\/\/twitter/, 'https://mobile.twitter')
 	};
 }, {
 	urls: [
