@@ -1,7 +1,7 @@
 'use strict';
 
 const blacklist = [
-	/twitter.com\/(intent|share)/, // intent URLs
+	/twitter.com\/(intent|share|oauth)/,
 	/twitter.com\/i\/redirect\?url=/ // redirect URLs
 ];
 
