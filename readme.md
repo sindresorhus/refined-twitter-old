@@ -26,6 +26,8 @@ Works on Firefox too, but requires [some manual steps for now](https://github.co
 - Go to Search: <kbd>/</kbd>
 - Go to Profile: <kbd>g</kbd> <kbd>p</kbd>
 - Go to Likes: <kbd>g</kbd> <kbd>l</kbd>
+- Go to next tweet: <kbd>j</kbd>
+- Go to previous tweet: <kbd>k</kbd>
 
 
 ## Related

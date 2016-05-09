@@ -1,5 +1,5 @@
 'use strict';
-/* globals Mousetrap */
+/* globals Mousetrap, scrollToTweet */
 const $ = document.querySelector.bind(document);
 // const $$ = document.querySelectorAll.bind(document);
 
@@ -54,6 +54,9 @@ function registerShortcuts(username) {
 			$('button[data-testid="dmComposerSendButton"]').click();
 		}
 	});
+
+	Mousetrap.bind('j', scrollToTweet);
+	Mousetrap.bind('k', scrollToTweet);
 }
 
 function init() {
