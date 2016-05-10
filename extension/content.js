@@ -40,8 +40,10 @@ function registerShortcuts(username) {
 	});
 
 	Mousetrap.bindGlobal('esc', () => {
-		if (window.location.pathname === '/compose/tweet') {
-			$('button[aria-label="Close"]').click();
+		const btn = $('button._158OzO7l');
+
+		if (btn) {
+			btn.click();
 		}
 	});
 
