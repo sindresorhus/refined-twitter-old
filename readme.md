@@ -40,6 +40,13 @@ Works on Firefox too, but requires [some manual steps for now](https://github.co
 - [Refined GitHub](https://github.com/sindresorhus/refined-github) - Like this, but for GitHub
 
 
+## Created by
+
+- [Sindre Sorhus](https://sindresorhus.com)
+- [Paul Molluzzo](http://paul.molluzzo.com)
+- [Contributors...](https://github.com/sindresorhus/refined-twitter/graphs/contributors)
+
+
 ## License
 
 MIT © [Sindre Sorhus](https://sindresorhus.com)
