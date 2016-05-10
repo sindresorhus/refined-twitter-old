@@ -28,6 +28,10 @@ Works on Firefox too, but requires [some manual steps for now](https://github.co
 - Go to Likes: <kbd>g</kbd> <kbd>l</kbd>
 - Go to next tweet: <kbd>j</kbd>
 - Go to previous tweet: <kbd>k</kbd>
+- Page down: <kbd>Ctrl</kbd> <kbd>d</kbd>
+- Page up: <kbd>Ctrl</kbd> <kbd>u</kbd>
+- Scroll to top: <kbd>g</kbd> <kbd>g</kbd>
+- Scroll to bottom: <kbd>G</kbd>
 
 
 ## Related

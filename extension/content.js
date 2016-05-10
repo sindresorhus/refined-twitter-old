@@ -5,7 +5,11 @@ const $ = document.querySelector.bind(document);
 
 function registerShortcuts(username) {
 	Mousetrap.bind('n', () => {
-		$('a[href$="/compose/tweet"]').click();
+		if (window.location.pathname.split('/')[1] === 'messages') {
+			$('a[href$="/messages/compose"]').click();
+		} else {
+			$('a[href$="/compose/tweet"]').click();
+		}
 
 		return false;
 	});
@@ -57,8 +61,30 @@ function registerShortcuts(username) {
 		}
 	});
 
+	// vim bindings
+	const pageScrollPctHeight = 0.9;
+	const fromScrollTop = n => document.body.scrollTop + n;
+	const scrollToY = y => window.scrollTo(0, y);
+
 	Mousetrap.bind('j', scrollToTweet);
 	Mousetrap.bind('k', scrollToTweet);
+
+	Mousetrap.bind('g g', () => {
+		scrollToY(0);
+	});
+
+	Mousetrap.bind('ctrl+d', () => {
+		scrollToY(fromScrollTop(window.innerHeight * pageScrollPctHeight));
+	});
+
+	Mousetrap.bind('ctrl+u', () => {
+		scrollToY(fromScrollTop(window.innerHeight * -pageScrollPctHeight));
+	});
+
+	Mousetrap.bind('G', () => {
+		scrollToY(document.body.scrollHeight);
+	});
+	// -- //
 }
 
 function init() {
