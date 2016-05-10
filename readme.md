@@ -19,7 +19,7 @@ Works on Firefox too, but requires [some manual steps for now](https://github.co
 ## Keyboard shortcuts
 
 - New tweet/DM: <kbd>n</kbd>
-- Send tweet/DM: <kbd>Cmd</kbd> <kbd>Enter</kbd> or <kbd>Cmd</kbd> <kbd>Enter</kbd>
+- Send tweet/DM: <kbd>Cmd</kbd> <kbd>Enter</kbd> or <kbd>Ctrl</kbd> <kbd>Enter</kbd>
 - Go to Home: <kbd>g</kbd> <kbd>h</kbd>
 - Go to Notifications: <kbd>g</kbd> <kbd>n</kbd>
 - Go to Messages: <kbd>g</kbd> <kbd>m</kbd>
