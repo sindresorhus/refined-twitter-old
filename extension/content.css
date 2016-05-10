@@ -3,3 +3,13 @@
 #react-root ._1MFKGigQ {
 	max-width: 800px !important;
 }
+
+/* reduce size of attached images when composing tweet */
+._2h7OFurO,
+._2h7OFurO .e-XpT8gn {
+	width: auto !important;
+}
+._2h7OFurO {
+	max-width: 50%;
+	overflow: hidden;
+}
