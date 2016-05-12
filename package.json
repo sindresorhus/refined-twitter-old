@@ -11,9 +11,6 @@
       "browser",
       "webextensions"
     ],
-    "rules": {
-      "prefer-const": "off"
-    },
     "ignores": [
       "extension/vendor/**"
     ]
