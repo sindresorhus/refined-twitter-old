@@ -2,7 +2,8 @@
 
 const blacklist = [
 	/twitter.com\/(intent|share|oauth)/,
-	/twitter.com\/i\/redirect\?url=/ // redirect URLs
+	/twitter.com\/i\/redirect\?url=/, // redirect URLs
+	/twitter.com\/\?onepasswdfill=/ // 1Password extension
 ];
 
 chrome.webRequest.onBeforeRequest.addListener(details => {
