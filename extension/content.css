@@ -20,3 +20,8 @@
 	-ms-flex-positive: 1;
 	flex-grow: 1;
 }
+
+/* hide "your tweet was posted message" */
+._1aaIXoeM.mqmxGGg7._3tixQkQf {
+	display: none !important;
+}
