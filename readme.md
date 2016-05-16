@@ -4,7 +4,7 @@
 
 I'm happy to receive feature requests. See [refined-github](https://github.com/sindresorhus/refined-github#highlights) for inspiration of the possibilities. Can be new features, interface tweaks, more keyboard shortcuts, etc. Pull requests preferable.
 
-**Check out [Anatine <img src="https://raw.githubusercontent.com/sindresorhus/anatine/master/media/Icon.png" width="23">](https://github.com/sindresorhus/anatine) — Desktop app version of this**
+**Check out [Anatine <img src="https://cloud.githubusercontent.com/assets/170270/15286711/c83ed3e4-1b88-11e6-849d-a9522d8736c3.png" width="23">](https://github.com/sindresorhus/anatine) — Desktop app version of this**
 
 ![](screenshot.png)
 
@@ -42,9 +42,9 @@ Works on Firefox too, but requires [some manual steps for now](https://github.co
 
 ## Created by
 
-- [Sindre Sorhus](https://sindresorhus.com)
-- [Paul Molluzzo](http://paul.molluzzo.com)
-- [Contributors...](https://github.com/sindresorhus/refined-twitter/graphs/contributors)
+- [Sindre Sorhus](https://gitter.im/sindresorhus)
+- [Paul Molluzzo](https://github.com/paulmolluzzo)
+- [Contributors…](https://github.com/sindresorhus/refined-twitter/graphs/contributors)
 
 
 ## License
