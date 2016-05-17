@@ -1,9 +1,9 @@
 'use strict';
 
 const blacklist = [
-	/twitter.com\/(intent|share|oauth)/,
-	/twitter.com\/i\/redirect\?url=/, // redirect URLs
-	/twitter.com\/\?onepasswdfill=/ // 1Password extension
+	/^(intent|share|oauth)/,
+	/^i\/redirect\?url=/, // redirect URLs
+	/\?onepasswdfill=/ // 1Password extension
 ];
 
 chrome.webRequest.onBeforeRequest.addListener(details => {
@@ -11,14 +11,17 @@ chrome.webRequest.onBeforeRequest.addListener(details => {
 		return;
 	}
 
-	const url = details.url;
+	const url = new URL(details.url);
+	const pathAndQuery = url.pathname.slice(1) + url.search;
 
-	if (blacklist.some(x => x.test(url))) {
+	if (blacklist.some(x => x.test(pathAndQuery))) {
 		return;
 	}
 
+	url.hostname = 'mobile.twitter.com';
+
 	return {
-		redirectUrl: url.replace(/^https:\/\/twitter/, 'https://mobile.twitter')
+		redirectUrl: url.href
 	};
 }, {
 	urls: [
