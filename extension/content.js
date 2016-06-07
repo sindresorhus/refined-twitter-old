@@ -153,8 +153,8 @@ function init() {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-	// TODO: figure out a better way to detect when React is done
-	setTimeout(init, 200);
+	// detect when React is ready before firing init
+	waitFor('#react-root header').then(init);
 
 	// change edit profile URL to point to the desktop URL
 	waitFor('.wRxmsUlJ a[href*="/settings/profile"]').then(el => {
