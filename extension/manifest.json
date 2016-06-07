@@ -8,6 +8,7 @@
 	"permissions": [
 		"webRequest",
 		"webRequestBlocking",
+		"storage",
 		"https://twitter.com/*"
 	],
 	"background": {
@@ -25,7 +26,8 @@
 				"https://mobile.twitter.com/*"
 			],
 			"css": [
-				"content.css"
+				"content.css",
+				"dark-mode.css"
 			],
 			"js": [
 				"vendor/mousetrap.js",

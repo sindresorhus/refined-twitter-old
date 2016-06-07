@@ -43,6 +43,10 @@ function registerShortcuts(username) {
 		$(`a[href$="/${username}/likes"]`).click();
 	});
 
+	Mousetrap.bind('d', () => {
+		toggleDarkMode();
+	});
+
 	Mousetrap.bindGlobal('esc', () => {
 		const btn = $('button._158OzO7l');
 
@@ -87,11 +91,42 @@ function registerShortcuts(username) {
 	// -- //
 }
 
+function getMode() {
+	return new Promise(resolve => {
+		chrome.runtime.sendMessage({method: 'getMode'}, res => {
+			// values are being passed back as strings, this converts to accurate boolean
+			resolve(res.darkMode === 'true');
+		});
+	});
+}
+
+function setMode(newMode) {
+	return new Promise(resolve => {
+		chrome.runtime.sendMessage({method: 'setMode', darkMode: newMode}, res => {
+			// values are being passed back as strings, this converts to accurate boolean
+			resolve(res.darkMode === 'true');
+		});
+	});
+}
+
+function toggleDarkMode() {
+	getMode().then(current => {
+		setMode(!current);
+	}).then(applyMode());
+}
+
+function applyMode(isDark) {
+	document.documentElement.classList.toggle('dark-mode', isDark);
+}
+
 function init() {
 	const state = JSON.parse($('.___iso-state___').dataset.state).initialState;
 	const username = state.settings.data.screen_name;
 
 	registerShortcuts(username);
+
+	// apply dark mode with local storage value
+	getMode().then(mode => applyMode(mode));
 }
 
 document.addEventListener('DOMContentLoaded', () => {
