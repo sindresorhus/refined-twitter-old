@@ -20,6 +20,7 @@ Works on Firefox too, but requires [some manual steps for now](https://github.co
 
 - New tweet/DM: <kbd>n</kbd>
 - Send tweet/DM: <kbd>Cmd</kbd> <kbd>Enter</kbd> or <kbd>Ctrl</kbd> <kbd>Enter</kbd>
+- Toggle dark mode: <kbd>d</kbd>
 - Go to Home: <kbd>g</kbd> <kbd>h</kbd>
 - Go to Notifications: <kbd>g</kbd> <kbd>n</kbd>
 - Go to Messages: <kbd>g</kbd> <kbd>m</kbd>

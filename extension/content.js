@@ -1,7 +1,6 @@
 'use strict';
 /* globals Mousetrap, scrollToTweet */
 const $ = document.querySelector.bind(document);
-// const $$ = document.querySelectorAll.bind(document);
 
 function registerShortcuts(username) {
 	Mousetrap.bind('n', () => {
@@ -126,7 +125,7 @@ function init() {
 	registerShortcuts(username);
 
 	// apply dark mode with local storage value
-	getMode().then(mode => applyMode(mode));
+	getMode().then(applyMode);
 }
 
 document.addEventListener('DOMContentLoaded', () => {
