@@ -2,6 +2,8 @@
 
 const blacklist = [
 	/^(intent|share|oauth)/,
+	/^settings\/profile/, // settings URL
+	/^\w+\?edit=true/, // settings URL
 	/^i\/redirect\?url=/, // redirect URLs
 	/\?onepasswdfill=/ // 1Password extension
 ];

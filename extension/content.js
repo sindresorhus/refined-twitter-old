@@ -2,6 +2,30 @@
 /* globals Mousetrap, scrollToTweet */
 const $ = document.querySelector.bind(document);
 
+// sets interval to wait for selector to be ready before firing callback
+// implementation copied from https://github.com/sindresorhus/anatine/blob/master/browser.js
+function waitFor(selector) {
+	return new Promise(resolve => {
+		const el = $(selector);
+
+		// shortcut if the element already exists
+		if (el) {
+			resolve(el);
+			return;
+		}
+
+		// interval to keep checking for it to come into the DOM
+		const awaitElement = setInterval(() => {
+			const el = $(selector);
+
+			if (el) {
+				resolve(el);
+				clearInterval(awaitElement);
+			}
+		}, 50);
+	});
+}
+
 function registerShortcuts(username) {
 	Mousetrap.bind('n', () => {
 		if (window.location.pathname.split('/')[1] === 'messages') {
@@ -131,4 +155,9 @@ function init() {
 document.addEventListener('DOMContentLoaded', () => {
 	// TODO: figure out a better way to detect when React is done
 	setTimeout(init, 200);
+
+	// change edit profile URL to point to the desktop URL
+	waitFor('.wRxmsUlJ a[href*="/settings/profile"]').then(el => {
+		el.href = el.href.replace('mobile.', '');
+	});
 });
