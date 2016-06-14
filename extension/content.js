@@ -1,10 +1,10 @@
 'use strict';
-/* globals Mousetrap, scrollToTweet */
+/* globals Mousetrap, scrollToTweet, hidePromotedTweets */
 const $ = document.querySelector.bind(document);
 
 // sets interval to wait for selector to be ready before firing callback
 // implementation copied from https://github.com/sindresorhus/anatine/blob/master/browser.js
-function waitFor(selector) {
+const waitFor = selector => {
 	return new Promise(resolve => {
 		const el = $(selector);
 
@@ -24,7 +24,7 @@ function waitFor(selector) {
 			}
 		}, 50);
 	});
-}
+};
 
 function registerShortcuts(username) {
 	Mousetrap.bind('n', () => {
@@ -160,4 +160,6 @@ document.addEventListener('DOMContentLoaded', () => {
 	waitFor('.wRxmsUlJ a[href*="/settings/profile"]').then(el => {
 		el.href = el.href.replace('mobile.', '');
 	});
+
+	hidePromotedTweets(waitFor);
 });

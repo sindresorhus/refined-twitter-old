@@ -44,3 +44,29 @@ html div._7xnAHtWH._3tixQkQf {
 		transform: rotate(360deg);
 	}
 }
+
+/* scale down the profile picture image in expanded mode and add a padding */
+div._1qcaWNh-._1sp7Rzwo._3tixQkQf > img._1MjUlO8b._3uSDkk5s {
+	box-sizing: border-box;
+	padding: 10px;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+/* tweet links are spans in spans in spans */
+._3ZFqFXW8 ._3EzK97M9 > span > span {
+	color: #2AA2EF !important;
+}
+
+/* make "added to list" list name link consistent color */
+._3ZDDth2l {
+	color: inherit !important;
+}
+
+/* remove inconsistent underline on hovering "added to list" list name links */
+._3ZDDth2l:hover,
+/* remove inconsistent underline on hovering username links */
+._2mYajcSS:hover ._2fjPhluv {
+	color: inherit !important;
+	text-decoration: none !important;
+}

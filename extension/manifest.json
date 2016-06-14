@@ -33,6 +33,7 @@
 				"vendor/mousetrap.js",
 				"vendor/mousetrap-global-bind.js",
 				"scroll-to-tweet.js",
+				"hide-promoted-tweets.js",
 				"content.js"
 			]
 		}
