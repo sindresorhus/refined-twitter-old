@@ -4,6 +4,14 @@
 	max-width: 800px !important;
 }
 
+/* reduce size of avatars */
+._1p4ugSl1, /* tweet profile pictures */
+._171rHWao, /* message profile pictures */
+._2cWG-A_x,
+.AJlWo6K3 { /* who to follow profile pictures */
+	max-width: 64px;
+}
+
 /* reduce size of attached images when composing tweet */
 ._2h7OFurO,
 ._2h7OFurO .e-XpT8gn {
