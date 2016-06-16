@@ -14,7 +14,10 @@
 			// watch tweetContainer to hide new ads that get added
 			new MutationObserver(() => {
 				seekAndDestroy();
-			}).observe(tweetContainer, {attributes: true, childList: true});
+			}).observe(tweetContainer, {
+				attributes: true,
+				childList: true
+			});
 		});
 	};
 

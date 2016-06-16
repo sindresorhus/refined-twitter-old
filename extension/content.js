@@ -125,7 +125,10 @@ function getMode() {
 
 function setMode(newMode) {
 	return new Promise(resolve => {
-		chrome.runtime.sendMessage({method: 'setMode', darkMode: newMode}, res => {
+		chrome.runtime.sendMessage({
+			method: 'setMode',
+			darkMode: newMode
+		}, res => {
 			// values are being passed back as strings, this converts to accurate boolean
 			resolve(res.darkMode === 'true');
 		});
