@@ -63,7 +63,7 @@ div._1qcaWNh-._1sp7Rzwo._3tixQkQf > img._1MjUlO8b._3uSDkk5s {
 }
 
 /* tweet links are spans in spans in spans */
-._3ZFqFXW8 ._3EzK97M9 > span > span {
+._3ZFqFXW8 ._3EzK97M9[dir=ltr] span {
 	color: #2AA2EF !important;
 }
 
