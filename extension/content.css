@@ -4,6 +4,19 @@
 	max-width: 800px !important;
 }
 
+/*
+* navbar fix for backgorund color
+* copied from anatine: https://github.com/sindresorhus/anatine/blob/7bab2ab18d6d9d9394696f3ae32a2f4b4ae2f1a3/browser.css#L32-39
+*/
+#react-root header nav {
+	border-bottom: 1px solid #e1e8ed;
+	background-color: white;
+}
+#react-root header .WBlUyLoP {
+	background-color: transparent;
+	border: none;
+}
+
 /* reduce size of avatars */
 ._1p4ugSl1, /* tweet profile pictures */
 ._2blRsCty, /* retweet icon */
