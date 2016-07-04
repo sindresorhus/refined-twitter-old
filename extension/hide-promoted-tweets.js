@@ -2,12 +2,12 @@
 (() => {
 	'use strict';
 
-	window.hidePromotedTweets = waitFor => {
-		const seekAndDestroy = () => waitFor('.vjrx_CgX').then(el => {
+	window.hidePromotedTweets = elementReady => {
+		const seekAndDestroy = () => elementReady('.vjrx_CgX').then(el => {
 			el.closest('div[class*="_222QxFjc"][role="row"]').style.display = 'none';
 		});
 
-		waitFor('._1nQuzuNK._3tixQkQf > ._3tixQkQf').then(tweetContainer => {
+		elementReady('._1nQuzuNK._3tixQkQf > ._3tixQkQf').then(tweetContainer => {
 			// hide any immediately seen ads
 			seekAndDestroy();
 
