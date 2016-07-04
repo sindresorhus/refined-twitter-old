@@ -1,3 +1,4 @@
+// copied from https://github.com/sindresorhus/anatine/blob/master/scroll-to-tweet.js
 (() => {
 	'use strict';
 
@@ -46,4 +47,8 @@
 
 		window.scrollTo(0, scrollTarget);
 	};
+
+	if (typeof module !== 'undefined' && module.exports) {
+		module.exports = window.scrollToTweet;
+	}
 })();

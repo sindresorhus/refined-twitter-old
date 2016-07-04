@@ -1,4 +1,4 @@
-// implementation copied from https://github.com/sindresorhus/anatine/
+// copied from https://github.com/sindresorhus/anatine/blob/master/hide-promoted-tweets.js
 (() => {
 	'use strict';
 
