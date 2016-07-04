@@ -10,6 +10,8 @@ html.dark-mode * {
 
 /* background colours */
 html.dark-mode,
+/* background of login page */
+html.dark-mode body.sessions-new-page,
 /* nav bar */
 html.dark-mode nav,
 /* input box */
@@ -28,8 +30,10 @@ html.dark-mode ._1R-qbptt {
 }
 
 /* search lists */
-html.dark-mode ._10lTeTjh {
-	background: #2f3b47 !important;
+html.dark-mode ._10lTeTjh,
+/* unread DM */
+html.dark-mode .ux8RIzeT {
+	background: rgba(255, 255, 255, 0.04);
 }
 
 /* navbar border */
@@ -55,6 +59,8 @@ html.dark-mode ._3so04aC4,
 html.dark-mode ._2LwEUgbO,
 html.dark-mode ._3tixQkQf,
 html.dark-mode .KpW0EccK,
+/* login page login button */
+body.sessions-new-page .button.signup,
 html.dark-mode .c2-JCY2V ._222QxFjc ._1BmZ-Yeo {
 	border-color: rgba(255, 255, 255, 0.1) !important;
 }
