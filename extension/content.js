@@ -42,6 +42,11 @@ function registerShortcuts(username) {
 		$(`a[href$="/${username}/likes"]`).click();
 	});
 
+	Mousetrap.bind('g i', () => {
+		$('a[href$="/account"]').click();
+		$(`a[href$="/${username}/lists"]`).click();
+	});
+
 	Mousetrap.bind('d', () => {
 		toggleDarkMode();
 	});
