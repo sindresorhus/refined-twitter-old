@@ -40,6 +40,7 @@ Works on Firefox too, but requires [some manual steps for now](https://github.co
 
 - [Anatine](https://github.com/sindresorhus/anatine) - Pristine Twitter app
 - [Refined GitHub](https://github.com/sindresorhus/refined-github) - Like this, but for GitHub
+- [Refined Wikipedia](https://github.com/ismamz/refined-wikipedia) - Like this, but for Wikipedia
 
 
 ## Created by
