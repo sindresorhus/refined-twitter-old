@@ -5,7 +5,8 @@ const blacklist = [
 	/^settings\/profile/, // settings URL
 	/^\w+\?edit=true/, // settings URL
 	/^i\/redirect\?url=/, // redirect URLs
-	/\?onepasswdfill=/ // 1Password extension
+	/\?onepasswdfill=/, // 1Password extension
+	/^(?:home)?\?status=/ // prefilled status message
 ];
 
 chrome.runtime.onMessage.addListener((req, sender, respond) => {
