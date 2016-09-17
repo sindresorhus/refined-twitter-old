@@ -2,9 +2,9 @@
 
 > An extension that makes Chrome always use the [mobile web](https://mobile.twitter.com) version of Twitter, which is much faster and better looking than the old [desktop web](https://twitter.com) version. When you open a link that would normally be to desktop Twitter, this extension redirects you to the mobile web version and makes it wider.
 
-I'm happy to receive feature requests. See [refined-github](https://github.com/sindresorhus/refined-github#highlights) for inspiration of the possibilities. Can be new features, interface tweaks, more keyboard shortcuts, etc. Pull requests preferable.
+**No new features will be accepted as I don't have time to keep up on the constant Mobile Twitter changes.<br>Pull request welcome if something is broken.**
 
-**Check out [Anatine <img src="https://cloud.githubusercontent.com/assets/170270/15286711/c83ed3e4-1b88-11e6-849d-a9522d8736c3.png" width="23">](https://github.com/sindresorhus/anatine) — Desktop app version of this**
+Check out [Anatine <img src="https://cloud.githubusercontent.com/assets/170270/15286711/c83ed3e4-1b88-11e6-849d-a9522d8736c3.png" width="23">](https://github.com/sindresorhus/anatine) — Desktop app version of this
 
 ![](screenshot.png)
 
@@ -30,8 +30,8 @@ Works on Firefox too, but requires [some manual steps for now](https://github.co
 - Go to Lists: <kbd>g</kbd> <kbd>i</kbd>
 - Go to next tweet: <kbd>j</kbd>
 - Go to previous tweet: <kbd>k</kbd>
-- Go to next photo: <kbd>right</kbd>
-- Go to previous photo: <kbd>left</kbd>
+- Go to next photo: <kbd>→</kbd>
+- Go to previous photo: <kbd>←</kbd>
 - Page down: <kbd>Ctrl</kbd> <kbd>d</kbd>
 - Page up: <kbd>Ctrl</kbd> <kbd>u</kbd>
 - Scroll to top: <kbd>g</kbd> <kbd>g</kbd>

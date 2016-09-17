@@ -69,6 +69,22 @@ function registerShortcuts(username) {
 		}
 	});
 
+	Mousetrap.bind('right', () => {
+		const nextBtn = $('button._2p6iBzFu._2UbkmNPH');
+
+		if (nextBtn) {
+			nextBtn.click();
+		}
+	});
+
+	Mousetrap.bind('left', () => {
+		const prevBtn = $('button._2p6iBzFu.lYVIpMQ4');
+
+		if (prevBtn) {
+			prevBtn.click();
+		}
+	});
+
 	// vim bindings
 	const pageScrollPctHeight = 0.9;
 	const fromScrollTop = n => document.body.scrollTop + n;
@@ -91,22 +107,6 @@ function registerShortcuts(username) {
 
 	Mousetrap.bind('G', () => {
 		scrollToY(document.body.scrollHeight);
-	});
-
-	Mousetrap.bind('right', () => {
-		const nextBtn = $('button._2p6iBzFu._2UbkmNPH');
-
-		if (nextBtn) {
-			$('button._2p6iBzFu._2UbkmNPH').click();
-		}
-	});
-
-	Mousetrap.bind('left', () => {
-		const prevBtn = $('button._2p6iBzFu.lYVIpMQ4');
-
-		if (prevBtn) {
-			$('button._2p6iBzFu.lYVIpMQ4').click();
-		}
 	});
 	// -- //
 }
