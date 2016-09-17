@@ -30,6 +30,8 @@ Works on Firefox too, but requires [some manual steps for now](https://github.co
 - Go to Lists: <kbd>g</kbd> <kbd>i</kbd>
 - Go to next tweet: <kbd>j</kbd>
 - Go to previous tweet: <kbd>k</kbd>
+- Go to next photo: <kbd>right</kbd>
+- Go to previous photo: <kbd>left</kbd>
 - Page down: <kbd>Ctrl</kbd> <kbd>d</kbd>
 - Page up: <kbd>Ctrl</kbd> <kbd>u</kbd>
 - Scroll to top: <kbd>g</kbd> <kbd>g</kbd>
