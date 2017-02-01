@@ -1,8 +1,12 @@
+# Deprecated
+
+For the same reason as [Anatine](https://github.com/sindresorhus/anatine#deprecated).
+
+---
+
 # <img src="extension/icon.png" width="45" align="left"> Refined Twitter
 
 > An extension that makes Chrome always use the [mobile web](https://mobile.twitter.com) version of Twitter, which is much faster and better looking than the old [desktop web](https://twitter.com) version. When you open a link that would normally be to desktop Twitter, this extension redirects you to the mobile web version and makes it wider.
-
-**No new features will be accepted as I don't have time to keep up on the constant Mobile Twitter changes.<br>Pull request welcome if something is broken.**
 
 Check out [Anatine <img src="https://cloud.githubusercontent.com/assets/170270/15286711/c83ed3e4-1b88-11e6-849d-a9522d8736c3.png" width="23">](https://github.com/sindresorhus/anatine) — Desktop app version of this
 
